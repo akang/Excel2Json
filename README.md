@@ -9,7 +9,7 @@ Java 1.8
 mvn clean install
 
 ## Example Excel format 
-Save this to CSV
+Save this to CSV  
 ![alt text](https://github.com/akang/Excel2Json/blob/master/excel_image.png)
 
 
