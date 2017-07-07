@@ -1,2 +1,44 @@
 # Excel2Json
-Converts an Excel document to a JSON document
+Converts an Excel document to a JSON document. Well kinda, you need to save the Excel into a CSV format first :)
+
+## Requirements
+Maven  
+Java 1.8  
+
+## Building
+mvn clean install
+
+## Example Excel format 
+Save this to CSV
+
+
+
+## Example CSV format
+root,,,  
+,node1,,  
+,,node2,  
+,,node3,  
+,,node4,  
+,,node5,  
+,,node6,  
+,node7,,  
+
+## JSON Output
+```json
+{
+	"root": {
+		"option1": {
+			"option2": "",
+			"option3": "",
+			"option4": "",
+			"option5": "",
+			"option6": ""
+		},
+		"option7": ""
+	}
+}
+```
+
+
+
+
