@@ -10,7 +10,7 @@ mvn clean install
 
 ## Example Excel format 
 Save this to CSV
-
+![alt text](https://github.com/akang/Excel2Json/blob/master/excel_image.png)
 
 
 ## Example CSV format
