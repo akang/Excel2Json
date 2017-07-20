@@ -21,13 +21,13 @@ Save this to CSV
 
 ## Example CSV format
 root,,,  
-,node1,,  
-,,node2,  
-,,node3,  
-,,node4,  
-,,node5,  
-,,node6,  
-,node7,,  
+,option1,,  
+,,option2,  
+,,option3,  
+,,option4,  
+,,option5,  
+,,option6,  
+,option7,,  
 
 ## JSON Output
 ```json
