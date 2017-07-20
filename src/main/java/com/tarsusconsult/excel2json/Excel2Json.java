@@ -127,7 +127,10 @@ public class Excel2Json {
     }
 
     public static void main(String[] args){
-        System.out.println("Usage: Excel2Json {inputfile}");
+        System.out.println("Usage: Excel2Json {full_path_to_inputfile}");
+        if(args.length == 0){
+            System.exit(0);
+        }
         String fullPathToExcel = args[0];
         System.out.println("Reading file: " + fullPathToExcel);
 
