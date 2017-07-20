@@ -3,7 +3,7 @@ Converts an Excel document to a JSON document. Well kinda, you need to save the 
 
 
 ## Usage
-java -jar excel2json {full_path_to_csv_file}
+java -jar excel2json.jar {full_path_to_csv_file}
 
 Then copy paste the output from stdout
 
